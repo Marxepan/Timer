@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "electron/main.mjs", // <-- DODANE: Wskazuje główny plik Electrona
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "electron:start": "electron ." // <-- DODANE: Skrypt do uruchamiania Electrona
   },
   "dependencies": {
     "react": "^19.2.0",
