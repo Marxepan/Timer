@@ -1,0 +1,18 @@
+{
+  "short_name": "Timer",
+  "name": "Prosty Timer",
+  "description": "Prosta i elegancka aplikacja z timerem (stoperem) z przyciskami Start/Pauza i Reset. Zbudowana przy użyciu React, TypeScript i Tailwind CSS.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#1f2937",
+  "background_color": "#111827"
+}

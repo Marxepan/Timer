@@ -1,0 +1,5 @@
+{
+  "name": "Prosty Timer",
+  "description": "Prosta i elegancka aplikacja z timerem (stoperem) z przyciskami Start/Pauza i Reset. Zbudowana przy użyciu React, TypeScript i Tailwind CSS.",
+  "requestFramePermissions": []
+}
