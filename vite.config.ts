@@ -19,6 +19,18 @@ export default defineConfig(({ mode }) => {
           '@': path.resolve(__dirname, '.'),
         }
       },
+build: {
+    outDir: 'dist',
+    assetsDir: './',
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        index: 'index.html',
+        sw: 'service-worker.js',
+      },
+    },
+  },
+        
         base: '/Timer/'
     };
 });
