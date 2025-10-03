@@ -1,10 +1,6 @@
 
 const CACHE_NAME = 'prosty-timer-cache-v2';
-const urlsToCache = [
-  `/Timer/`,
-  `/Timer/manifest.json`,
-];
-
+const urlsToCache =[]
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
