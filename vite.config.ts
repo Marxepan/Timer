@@ -28,6 +28,12 @@ build: {
         index: 'index.html',
         sw: 'service-worker.js',
       },
+        output: {
+      entryFileNames: (chunk) => {
+        if (chunk.name === 'sw') return 'service-worker.js';
+        return '[name]-[hash].js';
+      },
+    }
     },
   },
         
