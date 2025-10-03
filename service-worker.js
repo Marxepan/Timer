@@ -1,8 +1,8 @@
 
 const CACHE_NAME = 'prosty-timer-cache-v2';
 const urlsToCache = [
-  `${self.registration.scope}`,
-  `${self.registration.scope}manifest.json`,
+  `/Timer/`,
+  `/Timer/manifest.json`,
 ];
 
 self.addEventListener('install', event => {
