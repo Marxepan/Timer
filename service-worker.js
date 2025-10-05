@@ -1,6 +1,18 @@
+const CACHE_NAME = 'droga-do-czystosci-cache-v1';
+const urlsToCache = [
+  '/',
+  '/index.html',
+  '/index.tsx',
+  '/App.tsx',
+  '/icon.svg',
+  '/manifest.json',
+  'https://cdn.tailwindcss.com',
+  'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css',
+  'https://aistudiocdn.com/react@^19.2.0',
+  'https://aistudiocdn.com/react-dom@^19.2.0/client',
+  'https://aistudiocdn.com/react@^19.2.0/jsx-runtime'
+];
 
-const CACHE_NAME = 'prosty-timer-cache-v2';
-const urlsToCache =['https://marxepan.github.io/Timer/']
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)

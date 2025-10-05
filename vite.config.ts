@@ -18,25 +18,6 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      },
-build: {
-    outDir: 'dist',
-    assetsDir: './',
-    emptyOutDir: true,
-    rollupOptions: {
-      input: {
-        index: 'index.html',
-        sw: 'service-worker.js',
-      },
-        output: {
-      entryFileNames: (chunk) => {
-        if (chunk.name === 'sw') return 'service-worker.js';
-        return '[name]-[hash].js';
-      },
-    }
-    },
-  },
-        
-        base: '/Timer/'
+      }
     };
 });

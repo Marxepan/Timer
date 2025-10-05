@@ -1,7 +1,7 @@
 {
-  "short_name": "Timer",
-  "name": "Prosty Timer",
-  "description": "Prosta i elegancka aplikacja z timerem (stoperem) z przyciskami Start/Pauza i Reset. Zbudowana przy użyciu React, TypeScript i Tailwind CSS.",
+  "short_name": "Czystość",
+  "name": "Droga do Czystości",
+  "description": "Aplikacja wspierająca w drodze do trzeźwości. Śledź swoje postępy, prowadź dziennik i bądź silny/a każdego dnia.",
   "icons": [
     {
       "src": "/icon.svg",

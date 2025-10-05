@@ -1,5 +1,5 @@
 {
-  "name": "Prosty Timer",
-  "description": "Prosta i elegancka aplikacja z timerem (stoperem) z przyciskami Start/Pauza i Reset. Zbudowana przy użyciu React, TypeScript i Tailwind CSS.",
+  "name": "Droga do Czystości",
+  "description": "Aplikacja wspierająca w drodze do trzeźwości. Posiada licznik czasu w czystości, kalendarz oraz możliwość dodawania notatek.",
   "requestFramePermissions": []
 }
