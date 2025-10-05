@@ -10,6 +10,19 @@
     <meta name="theme-color" content="#1f2937" />
     <link rel="apple-touch-icon" href="/icon.svg" />
 
+    <style>
+      html {
+        /* Ensure the html element can fill the available height on mobile */
+        height: -webkit-fill-available;
+      }
+      body {
+        /* Use a robust method for full-screen height that works well on mobile */
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+        margin: 0;
+      }
+    </style>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script type="importmap">

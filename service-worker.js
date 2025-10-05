@@ -1,4 +1,4 @@
-const CACHE_NAME = 'droga-do-czystosci-cache-v1';
+const CACHE_NAME = 'droga-do-czystosci-cache-v2';
 const urlsToCache = [
   '/',
   '/index.html',
