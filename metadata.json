@@ -1,5 +1,5 @@
 {
-  "name": "Droga do Czystości",
+  "name": "Timer",
   "description": "Aplikacja wspierająca w drodze do trzeźwości. Posiada licznik czasu w czystości, kalendarz oraz możliwość dodawania notatek.",
   "requestFramePermissions": []
 }
