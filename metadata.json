@@ -1,5 +1,5 @@
 {
-  "name": "Timer",
-  "description": "Aplikacja wspierająca w drodze do trzeźwości. Posiada licznik czasu w czystości, kalendarz oraz możliwość dodawania notatek.",
+  "name": "Prosty Timer",
+  "description": "Prosta aplikacja z timerem/stoperem.",
   "requestFramePermissions": []
 }

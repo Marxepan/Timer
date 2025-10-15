@@ -1,9 +1,8 @@
-const CACHE_NAME = 'droga-do-czystosci-cache-v2';
+const CACHE_NAME = 'timer-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
   '/index.tsx',
-  '/App.tsx',
   '/icon.svg',
   '/manifest.json',
   'https://cdn.tailwindcss.com',
